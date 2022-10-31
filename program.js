@@ -1,5 +1,4 @@
 
-
 "use strict"
 //?pandigit number
 // function pan(b) {
@@ -36,7 +35,6 @@
 //     a=b
 //     b=res
 //     d.push(res)
-//     console.log(res);
 // }
 // if(d.includes(ch)){
 //     console.log('fabnocci');
@@ -73,6 +71,7 @@
 // let res=0
 // for (let i=1;i<a;i++){
 //     if(a%i==0){
+//       console.log(i);
 //         res=res+i
 //     }
 // }
@@ -285,10 +284,10 @@
 // }
 //?sorting logic
 // let a=[30,10,5,7,8]
-// for(x=0;x<a.length;x++){
-// for(y=0;y<a.length;y++){
+// for(let x=0;x<a.length;x++){
+// for(let y=0;y<a.length;y++){
 //     if(a[x] < a[y]){
-//         c=a[x]
+//         let c=a[x]
 //         a[x]=a[y]
 //        a[y]=c 
 //     }
@@ -449,3 +448,17 @@
 // let a=5
 // a%3==0 && a%5==0 && a%7==0 ? console.log('num is divisible by 3 and 5 and 7'):a%5==0?console.log('num is divisible by 5'):a%7==0 ? console.log('num disible by 7'): a%3==0?console.log('num divisible by 3'):console.log('the no is not divisible by 3 and 5 and 7')
 
+// function sum(arr,tar) {
+//   let obj={}
+//   for(let i=0;i<arr.length;i++){
+//     let val=arr[i]
+//     let find=tar-val
+//     if(obj[find]!=undefined){
+//       return [obj[find],i]
+//     }
+//     else{
+//       obj[arr[i]]=i
+//     }
+//   }
+// }
+// console.log(sum([5,6,7,10,20],30));
